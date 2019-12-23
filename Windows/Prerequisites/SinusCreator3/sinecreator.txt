@@ -1,0 +1,18 @@
+Editor for Sinus waves, made for creating sinustables for the C64.
+
+Coded by Grokk of The Gang.
+Moxified by Fred.
+
+Newer features:
+ * Supercoool graphix
+ * Max value is 64k
+
+New features:
+ * Can export the sinuswaves as c source.
+ * Some small fixes.
+ * A very nice about dialog.
+ * Updated to work on Windows XP and Vista
+ 
+ (c) The Gang 2003-2012
+ http://www.thegang.nu
+ 

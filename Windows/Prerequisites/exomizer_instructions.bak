@@ -1,0 +1,6 @@
+
+exomizer sfx $3000 -o packed.prg F:\main.prg
+
+if you dont want the flashing @ its... 
+
+exomizer sfx $1000 -n -o outfile.prg infile.prg

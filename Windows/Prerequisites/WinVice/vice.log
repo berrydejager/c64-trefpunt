@@ -1,0 +1,58 @@
+*** VICE Version 2.3 ***
+OS compiled for: unknown OS
+GUI compiled for: NATIVE
+CPU compiled for: 80386
+Compiler used: GCC-3.4.5
+Current OS: not yet implemented
+Current CPU: Intel Pentium Pro/II/III/Celeron/Core/Core 2/Atom
+ 
+Welcome to x64mm, the free portable C64 Emulator.
+ 
+Current VICE team members:
+D. Lem, A. Matthies, M. Pottendorfer, S. Trikaliotis, M. van den Heuvel,
+C. Vogelgsang, F. Gennari, D. Kahlin, A. Lankila, Groepaz, I. Korb,
+E. Smith, O. Seibert.
+ 
+This is free software with ABSOLUTELY NO WARRANTY.
+See the "About VICE" command for more info.
+ 
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\1008.C64\__XCODE_SOURCES__\0000.X64-code\Windows\Prerequisites\WinVICE\C64\kernal'.
+C64MEM: Kernal rev #3.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\1008.C64\__XCODE_SOURCES__\0000.X64-code\Windows\Prerequisites\WinVICE\C64\basic'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\1008.C64\__XCODE_SOURCES__\0000.X64-code\Windows\Prerequisites\WinVICE\C64\chargen'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\1008.C64\__XCODE_SOURCES__\0000.X64-code\Windows\Prerequisites\WinVICE\PRINTER\mps803'.
+Palette: Loading palette `C:\Users\BerrydeJager\SynologyDrive\1008.C64\__XCODE_SOURCES__\0000.X64-code\Windows\Prerequisites\WinVICE\PRINTER\mps803.vpl'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\1008.C64\__XCODE_SOURCES__\0000.X64-code\Windows\Prerequisites\WinVICE\PRINTER\nl10-cbm'.
+Palette: Loading palette `C:\Users\BerrydeJager\SynologyDrive\1008.C64\__XCODE_SOURCES__\0000.X64-code\Windows\Prerequisites\WinVICE\PRINTER\mps803.vpl'.
+NL10: Printer driver initialized.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\1008.C64\__XCODE_SOURCES__\0000.X64-code\Windows\Prerequisites\WinVICE\DRIVES\dos1541'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\1008.C64\__XCODE_SOURCES__\0000.X64-code\Windows\Prerequisites\WinVICE\DRIVES\d1541II'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\1008.C64\__XCODE_SOURCES__\0000.X64-code\Windows\Prerequisites\WinVICE\DRIVES\dos1570'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\1008.C64\__XCODE_SOURCES__\0000.X64-code\Windows\Prerequisites\WinVICE\DRIVES\dos1571'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\1008.C64\__XCODE_SOURCES__\0000.X64-code\Windows\Prerequisites\WinVICE\DRIVES\dos1581'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\1008.C64\__XCODE_SOURCES__\0000.X64-code\Windows\Prerequisites\WinVICE\DRIVES\dos2031'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\1008.C64\__XCODE_SOURCES__\0000.X64-code\Windows\Prerequisites\WinVICE\DRIVES\dos2040'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\1008.C64\__XCODE_SOURCES__\0000.X64-code\Windows\Prerequisites\WinVICE\DRIVES\dos3040'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\1008.C64\__XCODE_SOURCES__\0000.X64-code\Windows\Prerequisites\WinVICE\DRIVES\dos4040'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\1008.C64\__XCODE_SOURCES__\0000.X64-code\Windows\Prerequisites\WinVICE\DRIVES\dos1001'.
+Drive: Finished loading ROM images.
+Sound: Available sound devices: dx wmm dummy fs dump wav voc iff aiff soundmovie
+TFEARCH: LoadLibrary WPCAP.DLL failed!
+Keyboard: Loading keymap `C:\Users\BerrydeJager\SynologyDrive\1008.C64\__XCODE_SOURCES__\0000.X64-code\Windows\Prerequisites\WinVICE\C64\win_pos.vkm'.
+AUTOSTART: Autodetecting image type of `..\SourceBin\main.prg'.
+Filesystem Image: Unknown disk image `..\SourceBin\main.prg'.
+Tape: Error - Cannot open file `..\SourceBin\main.prg'
+AUTOSTART: Loading PRG file `..\SourceBin\main.prg' with virtual FS on unit #8.
+AUTOSTART: Resetting the machine to autostart 'MAIN.PRG'
+AUTOSTART: Turning Warp mode on
+AUTOSTART: `..\SourceBin\main.prg' recognized as program/p00 file.
+Main CPU: starting at ($FFFC).
+Main CPU: RESET.
+Sound: Opened device `dx', speed 44100Hz, fragment size 23ms, buffer size 116ms
+reSID: MOS6581, filter on, sampling rate 44100Hz - fast
+AUTOSTART: Loading program 'MAIN.PRG'
+AUTOSTART: Starting program.
+AUTOSTART: Turning Warp mode off
+
+Exiting...
+Sound: Closing device `dx'

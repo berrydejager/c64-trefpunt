@@ -1,0 +1,919 @@
+; PSPad clip definition file for Visual LISP
+; author:  PhilK
+; last revision 30. Jun 2011  09:42
+;
+[Macro definition]
+%True_False%=@C True/False:,,,;T;nil,
+%VL_True_False%=@C True/False:,,,;:vlax-true;:vlax-false,
+%file%=@O FileName:,,,,",R
+%varname%=@E Variable Name:,
+%funcname%=@E Function Name:,
+%number%=@E Enter a Number:,
+%string%=@E Enter a String:,,,,",
+%angunits%=@C Select Angular Units Option:,,,;0;1;2;3;4,
+%laytrans%=@C Select Option:,,,;0;1;2;4;8,
+
+;
+;
+;
+[(abs number) | Returns the Absolute Value of a number]
+(abs %number%)
+[(acad_colordlg colornum <flag>) | Displays the AutoCAD color selection dialog and returns the selected color]
+(acad_colordlg §|)
+[(acad_helpdlg helpfile topic) | Invokes the help facility (obsolete)]
+(acad_helpdlg §|)
+[(acad_strlsort list) | Sorts a list of strings in alphabetical order]
+(acad_strlsort §|)
+[(acad_truecolorcli color <allowbylayer> <alternatePrompt>) | Prompts for colors at the command line]
+(acad_truecolorcli §|)
+[(acad_truecolordlg color <allowbylayer> <currentlayercolor>) | Displays the AutoCAD color selection dialog box with tabs for index color, true color, and color books]
+(acad_truecolordlg §|)
+[(acad-pop-dbmod) | Restores the value of the DBMOD system variable to the value that was most recently stored with acad-push-dbmod]
+(acad-pop-dbmod)
+[(acad-push-dbmod) | Stores the current value of the DBMOD system variable]
+(acad-push-dbmod)
+[(acdimenableupdate T/nil) | Controls the automatic updating of associative dimensions]
+(acdimenableupdate %True_False%)
+[(acet-layerp-mark <status>) | Places beginning and ending marks for Layer Previous recording]
+(acet-layerp-mark %True_False%)
+[(acet-layerp-mode <status>) | Queries and sets the LAYERPMODE setting]
+(acet-layerp-mode %True_False%)
+[(acet-laytrans filename <settings>) | Translates drawing layers to standards defined in another drawing or standards file]
+(acet-laytrans %file% %laytrans%)
+[(acet-ms-to-ps <value><viewport>) | Converts a real value from model space units to paper space units]
+;;Note: Acspacetrans.arx must be loaded before you can use this function. Use the ARXLOAD function to load the file, (arxload "acspacetrans.arx").
+(acet-ms-to-ps §|)
+[(acet-ps-to-ms <value><viewport>) | Converts a real value from paper space units to model space units]
+;;Note: Acspacetrans.arx must be loaded before you can use this function. Use the ARXLOAD function to load the file, (arxload "acspacetrans.arx").
+(acet-ps-to-ms §|)
+[(action_tile key action-expression) | Assigns an action to evaluate when the user selects the specified tile in a dialog box]
+(action_tile §|)
+[(add_list string) | Adds or modifies a string in the currently active dialog box list]
+(add_list §|)
+[(alert string) | Displays a dialog box containing an error or warning message]
+(alert §|)
+[(alloc n-alloc) | Sets the size of the segment to be used by the expand function]
+(alloc §|)
+[(and <expr ...>) | Returns the logical AND of the supplied arguments]
+(and §|)
+[(angle pt1 pt2) | Returns an angle in radians of a line defined by two endpoints]
+(angle §|)
+[(angtof string <units>) | Converts a string representing an angle into a real (floating-point) value in radians]
+(angtof %string% %angunits%)
+[(angtos angle <unit <precision>>) | Converts an angular value in radians into a string]
+(angtos §| %angunits%)
+[(append <list ...>) | Takes any number of lists and appends them together as one list]
+(append §|)
+[(apply) | ]
+(apply §|)
+[(arx) | ]
+(arx §|)
+[(arxload) | ]
+(arxload §|)
+[(arxunload) | ]
+(arxunload §|)
+[(ascii) | ]
+(ascii §|)
+[(assoc) | ]
+(assoc §|)
+[(atan) | ]
+(atan §|)
+[(atof) | ]
+(atof §|)
+[(atoi) | ]
+(atoi §|)
+[(atom) | ]
+(atom §|)
+[(atoms-family) | ]
+(atoms-family §|)
+[(autoarxload) | ]
+(autoarxload §|)
+[(autoload) | ]
+(autoload §|)
+[(boole) | ]
+(boole §|)
+[(boundp) | ]
+(boundp §|)
+[(caaaar) | List Notation]
+(caaaar §|)
+[(caaadr) | List Notation]
+(caaadr §|)
+[(caaar) | List Notation]
+(caaar §|)
+[(caadar) | List Notation]
+(caadar §|)
+[(caaddr) | List Notation]
+(caaddr §|)
+[(caadr) | List Notation]
+(caadr §|)
+[(caar) | List Notation]
+(caar §|)
+[(cadaar) | List Notation]
+(cadaar §|)
+[(cadadr) | List Notation]
+(cadadr §|)
+[(cadar) | List Notation]
+(cadar §|)
+[(caddar) | List Notation]
+(caddar §|)
+[(cadddr) | List Notation]
+(cadddr §|)
+[(caddr) | List Notation]
+(caddr §|)
+[(cadr) | List Notation]
+(cadr §|)
+[(car) | List Notation]
+(car §|)
+[(cdaaar) | List Notation]
+(cdaaar §|)
+[(cdaadr) | List Notation]
+(cdaadr §|)
+[(cdaar) | List Notation]
+(cdaar §|)
+[(cdadar) | List Notation]
+(cdadar §|)
+[(cdaddr) | List Notation]
+(cdaddr §|)
+[(cdadr) | List Notation]
+(cdadr §|)
+[(cdar) | List Notation]
+(cdar §|)
+[(cddaar) | List Notation]
+(cddaar §|)
+[(cddadr) | List Notation]
+(cddadr §|)
+[(cddar) | List Notation]
+(cddar §|)
+[(cdddar) | List Notation]
+(cdddar §|)
+[(cddddr) | List Notation]
+(cddddr §|)
+[(cdddr) | List Notation]
+(cdddr §|)
+[(cddr) | List Notation]
+(cddr §|)
+[(cdr) | List Notation]
+(cdr §|)
+[(chr) | ]
+(chr §|)
+[(client_data_tile) | ]
+(client_data_tile §|)
+[(close) | ]
+(close §|)
+[(command) | ]
+(command §|)
+[(cond) |]
+(cond
+   ((§|))
+)
+[(cons) | ]
+(cons §|)
+[(cos) | ]
+(cos §|)
+[(cvunit) | ]
+(cvunit §|)
+[(defun) | Defines a function]
+;;Function Name: %funcname%
+(defun %funcname% ( /)
+   |
+);; End Function (%funcname%)
+[(defun-q) | ]
+(defun-q %funcname% ( /)
+   |
+)
+[(defun-q-list-ref) | ]
+(defun-q-list-ref §|)
+[(defun-q-list-set) | ]
+(defun-q-list-set §|)
+[(dictadd) | ]
+(dictadd §|)
+[(dictnext) | ]
+(dictnext §|)
+[(dictremove) | ]
+(dictremove §|)
+[(dictrename) | ]
+(dictrename §|)
+[(dictsearch) | ]
+(dictsearch §|)
+[(dimx_tile) | ]
+(dimx_tile §|)
+[(dimy_tile) | ]
+(dimy_tile §|)
+[(distance) | ]
+(distance §|)
+[(distof) | ]
+(distof §|)
+[(done_dialog) | ]
+(done_dialog §|)
+[(end_image) | ]
+(end_image §|)
+[(end_list) | ]
+(end_list §|)
+[(entdel) | ]
+(entdel §|)
+[(entget) | ]
+(entget §|)
+[(entlast) | ]
+(entlast §|)
+[(entmake) | ]
+(entmake §|)
+[(entmakex) | ]
+(entmakex §|)
+[(entmod) | ]
+(entmod §|)
+[(entnext) | ]
+(entnext §|)
+[(entsel) | ]
+(entsel §|)
+[(entupd) | ]
+(entupd §|)
+[(eq) | ]
+(eq §|)
+[(equal) | ]
+(equal §|)
+[(eval) | ]
+(eval §|)
+[(exit) | ]
+(exit §|)
+[(exp) | ]
+(exp §|)
+[(expand) | ]
+(expand §|)
+[(expt) | ]
+(expt §|)
+[(fill_image) | ]
+(fill_image §|)
+[(findfile) | ]
+(findfile §|)
+[(fix) | ]
+(fix §|)
+[(float) | ]
+(float §|)
+[(foreach) | ]
+(foreach §|)
+[(function) | ]
+(function §|)
+[(gc) | ]
+(gc §|)
+[(gcd) | ]
+(gcd §|)
+[(get_attr) | ]
+(get_attr §|)
+[(get_tile) | ]
+(get_tile §|)
+[(getangle) | ]
+(getangle §|)
+[(getcfg) | ]
+(getcfg §|)
+[(getcname) | ]
+(getcname §|)
+[(getcorner) | ]
+(getcorner §|)
+[(getdist) | ]
+(getdist §|)
+[(getenv) | ]
+(getenv §|)
+[(getfiled) | ]
+(getfiled §|)
+[(getint) | ]
+(getint §|)
+[(getkword) | ]
+(getkword §|)
+[(getorient) | ]
+(getorient §|)
+[(getpoint) | ]
+(getpoint §|)
+[(getreal) | ]
+(getreal §|)
+[(getstring) | ]
+(getstring §|)
+[(getvar) | ]
+(getvar §|)
+[(graphscr) | ]
+(graphscr §|)
+[(grclear) | ]
+(grclear §|)
+[(grdraw) | ]
+(grdraw §|)
+[(grread) | ]
+(grread §|)
+[(grtext) | ]
+(grtext §|)
+[(grvecs) | ]
+(grvecs §|)
+[(handent) | ]
+(handent §|)
+[(help) | ]
+(help §|)
+[(if) | ]
+(if
+   |
+)
+[(initcommandversion) | ]
+(initcommandversion §|)
+[(initdia) | ]
+(initdia §|)
+[(initget) | ]
+(initget §|)
+[(inters) | ]
+(inters §|)
+[(itoa) | ]
+(itoa §|)
+[(lambda) | ]
+(lambda (x)
+   |
+)
+[(last) | ]
+(last §|)
+[(layoutlist) | ]
+(layoutlist §|)
+[(layerstate-addlayers) | ]
+(layerstate-addlayers §|)
+[(layerstate-compare) | ]
+(layerstate-compare §|)
+[(layerstate-delete) | ]
+(layerstate-delete §|)
+[(layerstate-export) | ]
+(layerstate-export §|)
+[(layerstate-getlastrestored) | ]
+(layerstate-getlastrestored §|)
+[(layerstate-getlayers) | ]
+(layerstate-getlayers §|)
+[(layerstate-getnames) | ]
+(layerstate-getnames §|)
+[(layerstate-has) | ]
+(layerstate-has §|)
+[(layerstate-import) | ]
+(layerstate-import §|)
+[(layerstate-importfromdb) | ]
+(layerstate-importfromdb §|)
+[(layerstate-removelayers) | ]
+(layerstate-removelayers §|)
+[(layerstate-rename) | ]
+(layerstate-rename §|)
+[(layerstate-restore) | ]
+(layerstate-restore §|)
+[(layerstate-save) | ]
+(layerstate-save §|)
+[(length) | ]
+(length §|)
+[(list) | ]
+(list §|)
+[(listp) | ]
+(listp §|)
+[(load) | ]
+(load §|)
+[(load_dialog) | ]
+(load_dialog §|)
+[(log) | ]
+(log §|)
+[(logand) | ]
+(logand §|)
+[(logior) | ]
+(logior §|)
+[(lsh) | ]
+(lsh §|)
+[(mapcar) | ]
+(mapcar §|)
+[(max) | ]
+(max §|)
+[(mem) | ]
+(mem §|)
+[(member) | ]
+(member §|)
+[(menucmd) | ]
+(menucmd §|)
+[(menugroup) | ]
+(menugroup §|)
+[(min) | ]
+(min §|)
+[(minusp) | ]
+(minusp §|)
+[(mode_tile) | ]
+(mode_tile §|)
+[(namedobjdict) | ]
+(namedobjdict §|)
+[(nentsel) | ]
+(nentsel §|)
+[(nentselp) | ]
+(nentselp §|)
+[(new_dialog) | ]
+(new_dialog §|)
+[(not) | ]
+(not §|)
+[(nth) | ]
+(nth §|)
+[(null) | ]
+(null §|)
+[(numberp) | ]
+(numberp §|)
+[(open) | ]
+(open §|)
+[(or) | ]
+(or §|)
+[(osnap) | ]
+(osnap §|)
+[(polar) | ]
+(polar §|)
+[(prin1) | ]
+(prin1 §|)
+[(princ) | ]
+(princ §|)
+[(print) | ]
+(print §|)
+[(progn) | ]
+(progn
+   §|
+)
+[(prompt) | ]
+(prompt §|)
+[(quit) | ]
+(quit §|)
+[(quote) | ]
+(quote §|)
+[(read) | ]
+(read §|)
+[(read-char) | ]
+(read-char §|)
+[(read-line) | ]
+(read-line §|)
+[(redraw) | ]
+(redraw §|)
+[(regapp) | ]
+(regapp §|)
+[(rem) | ]
+(rem §|)
+[(repeat) | ]
+(repeat §|
+
+)
+[(reverse) | ]
+(reverse §|)
+[(rtos) | ]
+(rtos §|)
+[(set) | ]
+(set §|)
+[(set_tile) | ]
+(set_tile §|)
+[(setcfg) | ]
+(setcfg §|)
+[(setenv) | ]
+(setenv §|)
+[(setfunhelp) | ]
+(setfunhelp §|)
+[(setq) | ]
+(setq §|)
+[(setvar) | ]
+(setvar §|)
+[(setview) | ]
+(setview §|)
+[(sin) | ]
+(sin §|)
+[(slide_image) | ]
+(slide_image §|)
+[(snvalid) | ]
+(snvalid §|)
+[(sqrt) | ]
+(sqrt §|)
+[(ssadd) | ]
+(ssadd §|)
+[(ssdel) | ]
+(ssdel §|)
+[(ssget) | ]
+(ssget §|)
+[(ssgetfirst) | ]
+(ssgetfirst §|)
+[(sslength) | ]
+(sslength §|)
+[(ssmemb) | ]
+(ssmemb §|)
+[(ssname) | ]
+(ssname §|)
+[(ssnamex) | ]
+(ssnamex §|)
+[(sssetfirst) | ]
+(sssetfirst §|)
+[(start_dialog) | ]
+(start_dialog §|)
+[(start_image) | ]
+(start_image §|)
+[(start_list) | ]
+(start_list §|)
+[(startapp) | ]
+(startapp §|)
+[(strcase) | ]
+(strcase §|)
+[(strcat) | ]
+(strcat §|)
+[(strlen) | ]
+(strlen §|)
+[(subst) | ]
+(subst §|)
+[(substr) | ]
+(substr §|)
+[(tablet) | ]
+(tablet §|)
+[(tblnext) | ]
+(tblnext §|)
+[(tblobjname) | ]
+(tblobjname §|)
+[(tblsearch) | ]
+(tblsearch §|)
+[(term_dialog) | ]
+(term_dialog §|)
+[(terpri) | ]
+(terpri §|)
+[(textbox) | ]
+(textbox §|)
+[(textpage) | ]
+(textpage §|)
+[(textscr) | ]
+(textscr §|)
+[(trace) | ]
+(trace §|)
+[(trans) | ]
+(trans §|)
+[(type) | ]
+(type §|)
+[(unload_dialog) | ]
+(unload_dialog §|)
+[(untrace) | ]
+(untrace §|)
+[(vector_image) | ]
+(vector_image §|)
+[(ver) | ]
+(ver §|)
+[(vl-acad-defun) | ]
+(vl-acad-defun §|)
+[(vl-acad-undefun) | ]
+(vl-acad-undefun §|)
+[(vl-arx-import) | ]
+(vl-arx-import §|)
+[(vl-bb-ref) | ]
+(vl-bb-ref §|)
+[(vl-bb-set) | ]
+(vl-bb-set §|)
+[(vl-catch-all-apply) | ]
+(vl-catch-all-apply §|)
+[(vl-catch-all-error-message) | ]
+(vl-catch-all-error-message §|)
+[(vl-catch-all-error-p) | ]
+(vl-catch-all-error-p §|)
+[(vl-cmdf) | ]
+(vl-cmdf §|)
+[(vl-consp) | ]
+(vl-consp §|)
+[(vl-directory-files) | ]
+(vl-directory-files §|)
+[(vl-doc-export) | ]
+(vl-doc-export §|)
+[(vl-doc-import) | ]
+(vl-doc-import §|)
+[(vl-doc-ref) | ]
+(vl-doc-ref §|)
+[(vl-doc-set) | ]
+(vl-doc-set §|)
+[(vl-every) | ]
+(vl-every §|)
+[(vl-exit-with-error) | ]
+(vl-exit-with-error §|)
+[(vl-exit-with-value) | ]
+(vl-exit-with-value §|)
+[(vl-file-copy) | ]
+(vl-file-copy §|)
+[(vl-file-delete) | ]
+(vl-file-delete §|)
+[(vl-file-directory-p) | ]
+(vl-file-directory-p §|)
+[(vl-filename-base) | ]
+(vl-filename-base §|)
+[(vl-filename-directory) | ]
+(vl-filename-directory §|)
+[(vl-filename-extension) | ]
+(vl-filename-extension §|)
+[(vl-filename-mktemp) | ]
+(vl-filename-mktemp §|)
+[(vl-file-rename) | ]
+(vl-file-rename §|)
+[(vl-file-size) | ]
+(vl-file-size §|)
+[(vl-file-systime) | ]
+(vl-file-systime §|)
+[(vl-get-resource) | ]
+(vl-get-resource §|)
+[(vlisp-compile) | ]
+(vlisp-compile §|)
+[(vl-list*) | ]
+(vl-list* §|)
+[(vl-list->string) | ]
+(vl-list->string §|)
+[(vl-list-exported-functions) | ]
+(vl-list-exported-functions §|)
+[(vl-list-length) | ]
+(vl-list-length §|)
+[(vl-list-loaded-vlx) | ]
+(vl-list-loaded-vlx §|)
+[(vl-load-all) | ]
+(vl-load-all §|)
+[(vl-load-com) | ]
+(vl-load-com §|)
+[(vl-load-reactors) | ]
+(vl-load-reactors §|)
+[(vl-member-if) | ]
+(vl-member-if §|)
+[(vl-member-if-not) | ]
+(vl-member-if-not §|)
+[(vl-mkdir) | ]
+(vl-mkdir §|)
+[(vl-position) | ]
+(vl-position §|)
+[(vl-prin1-to-string) | ]
+(vl-prin1-to-string §|)
+[(vl-princ-to-string) | ]
+(vl-princ-to-string §|)
+[(vl-propagate) | ]
+(vl-propagate §|)
+[(vl-registry-delete) | ]
+(vl-registry-delete §|)
+[(vl-registry-descendents) | ]
+(vl-registry-descendents §|)
+[(vl-registry-read) | ]
+(vl-registry-read §|)
+[(vl-registry-write) | ]
+(vl-registry-write §|)
+[(vl-remove) | ]
+(vl-remove §|)
+[(vl-remove-if) | ]
+(vl-remove-if §|)
+[(vl-remove-if-not) | ]
+(vl-remove-if-not §|)
+[(vl-some) | ]
+(vl-some §|)
+[(vl-sort) | ]
+(vl-sort §|)
+[(vl-sort-i) | ]
+(vl-sort-i §|)
+[(vl-string->list) | ]
+(vl-string->list §|)
+[(vl-string-elt) | ]
+(vl-string-elt §|)
+[(vl-string-left-trim) | ]
+(vl-string-left-trim §|)
+[(vl-string-mismatch) | ]
+(vl-string-mismatch §|)
+[(vl-string-position) | ]
+(vl-string-position §|)
+[(vl-string-right-trim) | ]
+(vl-string-right-trim §|)
+[(vl-string-search) | ]
+(vl-string-search §|)
+[(vl-string-subst) | ]
+(vl-string-subst §|)
+[(vl-string-translate) | ]
+(vl-string-translate §|)
+[(vl-string-trim) | ]
+(vl-string-trim §|)
+[(vl-symbol-name) | ]
+(vl-symbol-name §|)
+[(vl-symbolp) | ]
+(vl-symbolp §|)
+[(vl-symbol-value) | ]
+(vl-symbol-value §|)
+[(vl-unload-vlx) | ]
+(vl-unload-vlx §|)
+[(vl-vbaload) | ]
+(vl-vbaload §|)
+[(vl-vbarun) | ]
+(vl-vbarun §|)
+[(vl-vlx-loaded-p) | ]
+(vl-vlx-loaded-p §|)
+[(vlax-3D-point) | ]
+(vlax-3D-point §|)
+[(vlax-add-cmd) | ]
+(vlax-add-cmd §|)
+[(vlax-create-object) | ]
+(vlax-create-object §|)
+[(vlax-curve-getArea) | ]
+(vlax-curve-getArea §|)
+[(vlax-curve-getClosestPointTo) | ]
+(vlax-curve-getClosestPointTo §|)
+[(vlax-curve-getClosestPointToProjection) | ]
+(vlax-curve-getClosestPointToProjection §|)
+[(vlax-curve-getDistAtParam) | ]
+(vlax-curve-getDistAtParam §|)
+[(vlax-curve-getDistAtPoint) | ]
+(vlax-curve-getDistAtPoint §|)
+[(vlax-curve-getEndParam) | ]
+(vlax-curve-getEndParam §|)
+[(vlax-curve-getEndPoint) | ]
+(vlax-curve-getEndPoint §|)
+[(vlax-curve-getFirstDeriv) | ]
+(vlax-curve-getFirstDeriv §|)
+[(vlax-curve-getParamAtDist) | ]
+(vlax-curve-getParamAtDist §|)
+[(vlax-curve-getParamAtPoint) | ]
+(vlax-curve-getParamAtPoint §|)
+[(vlax-curve-getPointAtDist) | ]
+(vlax-curve-getPointAtDist §|)
+[(vlax-curve-getPointAtParam) | ]
+(vlax-curve-getPointAtParam §|)
+[(vlax-curve-getSecondDeriv) | ]
+(vlax-curve-getSecondDeriv §|)
+[(vlax-curve-getStartParam) | ]
+(vlax-curve-getStartParam §|)
+[(vlax-curve-getStartPoint) | ]
+(vlax-curve-getStartPoint §|)
+[(vlax-curve-isClosed) | ]
+(vlax-curve-isClosed §|)
+[(vlax-curve-isPeriodic) | ]
+(vlax-curve-isPeriodic §|)
+[(vlax-curve-isPlanar) | ]
+(vlax-curve-isPlanar §|)
+[(vlax-dump-object) | ]
+(vlax-dump-object §|)
+[(vlax-ename->vla-object) | ]
+(vlax-ename->vla-object §|)
+[(vlax-erased-p) | ]
+(vlax-erased-p §|)
+[(vlax-for) | ]
+(vlax-for §|)
+[(vlax-get-acad-object) | ]
+(vlax-get-acad-object §|)
+[(vlax-get-object) | ]
+(vlax-get-object §|)
+[(vlax-get-or-create-object) | ]
+(vlax-get-or-create-object §|)
+[(vlax-get-property) | ]
+(vlax-get-property §|)
+[(vlax-import-type-library) | ]
+(vlax-import-type-library §|)
+[(vlax-invoke) | ]
+(vlax-invoke §|)
+[(vlax-invoke-method) | ]
+(vlax-invoke-method §|)
+[(vlax-ldata-delete) | ]
+(vlax-ldata-delete §|)
+[(vlax-ldata-get) | ]
+(vlax-ldata-get §|)
+[(vlax-ldata-list) | ]
+(vlax-ldata-list §|)
+[(vlax-ldata-put) | ]
+(vlax-ldata-put §|)
+[(vlax-ldata-test) | ]
+(vlax-ldata-test §|)
+[(vlax-make-safearray) | ]
+(vlax-make-safearray §|)
+[(vlax-make-variant) | ]
+(vlax-make-variant §|)
+[(vlax-map-collection) | ]
+(vlax-map-collection §|)
+[(vlax-method-applicable-p) | ]
+(vlax-method-applicable-p §|)
+[(vlax-object-released-p) | ]
+(vlax-object-released-p §|)
+[(vlax-product-key) | ]
+(vlax-product-key §|)
+[(vlax-property-available-p) | ]
+(vlax-property-available-p §|)
+[(vlax-put-property) | ]
+(vlax-put-property §|)
+[(vlax-read-enabled-p) | ]
+(vlax-read-enabled-p §|)
+[(vlax-release-object) | ]
+(vlax-release-object §|)
+[(vlax-remove-cmd) | ]
+(vlax-remove-cmd §|)
+[(vlax-safearray->list) | ]
+(vlax-safearray->list §|)
+[(vlax-safearray-fill) | ]
+(vlax-safearray-fill §|)
+[(vlax-safearray-get-dim) | ]
+(vlax-safearray-get-dim §|)
+[(vlax-safearray-get-element) | ]
+(vlax-safearray-get-element §|)
+[(vlax-safearray-get-l-bound) | ]
+(vlax-safearray-get-l-bound §|)
+[(vlax-safearray-get-u-bound) | ]
+(vlax-safearray-get-u-bound §|)
+[(vlax-safearray-put-element) | ]
+(vlax-safearray-put-element §|)
+[(vlax-safearray-type) | ]
+(vlax-safearray-type §|)
+[(vlax-tmatrix) | ]
+(vlax-tmatrix §|)
+[(vlax-typeinfo-available-p) | ]
+(vlax-typeinfo-available-p §|)
+[(vlax-variant-change-type) | ]
+(vlax-variant-change-type §|)
+[(vlax-variant-type) | ]
+(vlax-variant-type §|)
+[(vlax-variant-value) | ]
+(vlax-variant-value §|)
+[(vlax-vla-object->ename) | ]
+(vlax-vla-object->ename §|)
+[(vlax-write-enabled-p) | ]
+(vlax-write-enabled-p §|)
+[(vlr-acdb-reactor) | ]
+(vlr-acdb-reactor §|)
+[(vlr-add) | ]
+(vlr-add §|)
+[(vlr-added-p) | ]
+(vlr-added-p §|)
+[(vlr-beep-reaction) | ]
+(vlr-beep-reaction §|)
+[(vlr-command-reactor) | ]
+(vlr-command-reactor §|)
+[(vlr-current-reaction-name) | ]
+(vlr-current-reaction-name §|)
+[(vlr-data) | ]
+(vlr-data §|)
+[(vlr-data-set) | ]
+(vlr-data-set §|)
+[(vlr-deepclone-reactor) | ]
+(vlr-deepclone-reactor §|)
+[(vlr-docmanager-reactor) | ]
+(vlr-docmanager-reactor §|)
+[(vlr-dwg-reactor) | ]
+(vlr-dwg-reactor §|)
+[(vlr-dxf-reactor) | ]
+(vlr-dxf-reactor §|)
+[(vlr-editor-reactor) | ]
+(vlr-editor-reactor §|)
+[(vlr-insert-reactor) | ]
+(vlr-insert-reactor §|)
+[(vlr-linker-reactor) | ]
+(vlr-linker-reactor §|)
+[(vlr-lisp-reactor) | ]
+(vlr-lisp-reactor §|)
+[(vlr-miscellaneous-reactor) | ]
+(vlr-miscellaneous-reactor §|)
+[(vlr-mouse-reactor) | ]
+(vlr-mouse-reactor §|)
+[(vlr-notification) | ]
+(vlr-notification §|)
+[(vlr-object-reactor) | ]
+(vlr-object-reactor §|)
+[(vlr-owner-add) | ]
+(vlr-owner-add §|)
+[(vlr-owner-remove) | ]
+(vlr-owner-remove §|)
+[(vlr-owners) | ]
+(vlr-owners §|)
+[(vlr-pers) | ]
+(vlr-pers §|)
+[(vlr-pers-list) | ]
+(vlr-pers-list §|)
+[(vlr-pers-p) | ]
+(vlr-pers-p §|)
+[(vlr-pers-release) | ]
+(vlr-pers-release §|)
+[(vlr-reaction-name) | ]
+(vlr-reaction-name §|)
+[(vlr-reactions) | ]
+(vlr-reactions §|)
+[(vlr-reaction-set) | ]
+(vlr-reaction-set §|)
+[(vlr-reactors) | ]
+(vlr-reactors §|)
+[(vlr-remove) | ]
+(vlr-remove §|)
+[(vlr-remove-all) | ]
+(vlr-remove-all §|)
+[(vlr-set-notification) | ]
+(vlr-set-notification §|)
+[(vlr-sysvar-reactor) | ]
+(vlr-sysvar-reactor §|)
+[(vlr-toolbar-reactor) | ]
+(vlr-toolbar-reactor §|)
+[(vlr-trace-reaction) | ]
+(vlr-trace-reaction §|)
+[(vlr-type) | ]
+(vlr-type §|)
+[(vlr-types) | ]
+(vlr-types §|)
+[(vlr-undo-reactor) | ]
+(vlr-undo-reactor §|)
+[(vlr-wblock-reactor) | ]
+(vlr-wblock-reactor §|)
+[(vlr-window-reactor) | ]
+(vlr-window-reactor §|)
+[(vlr-xref-reactor) | ]
+(vlr-xref-reactor §|)
+[(vports) | ]
+(vports §|)
+[(wcmatch) | ]
+(wcmatch §|)
+[(while) | ]
+(while §|
+
+)
+[(write-char) | ]
+(write-char §|)
+[(write-line) | ]
+(write-line §|)
+[(xdroom) | ]
+(xdroom §|)
+[(xdsize) | ]
+(xdsize §|)
+[(zerop) | ]
+(zerop §|)

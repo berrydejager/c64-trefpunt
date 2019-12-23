@@ -1,0 +1,24 @@
+*** VICE Version 2.4 ***
+OS compiled for: WIN32
+GUI compiled for: NATIVE
+CPU compiled for: 80386
+Compiler used: GCC-4.6.2
+Current OS: Unknown Windows version (2 6 2 10 1 256)
+Current CPU: Intel Pentium Pro/II/III/Celeron/Core/Core 2/Atom
+ 
+Welcome to x64, the free portable C64 Emulator.
+ 
+Current VICE team members:
+D. Lem, A. Matthies, M. Pottendorfer, S. Trikaliotis, M. van den Heuvel,
+C. Vogelgsang, F. Gennari, D. Kahlin, A. Lankila, Groepaz, I. Korb,
+E. Smith, O. Seibert, M. Sutton, U. Schulz, S. Haubenthal, T. Giesel,
+K. Zsolt.
+ 
+This is free software with ABSOLUTELY NO WARRANTY.
+See the "About VICE" command for more info.
+ 
+Error - Warning. Cannot open keyboard shortcut file win_shortcuts.vsc.
+C64MEM: Error - Couldn't load kernal ROM `kernal'.
+Error - Machine initialization failed.
+
+Exiting...

@@ -1,0 +1,33 @@
+    Title(S)addamski's Killer
+    AuthorEdwin van Santen
+    Released1991 20th Century Composers
+
+    Load Address
+    $1000
+    Number of tunes
+    1
+    Init Address
+    $1000
+    Default tune
+    1
+    Play Address
+    $1003
+    Speed
+    $00000000
+
+    SID Model
+    Unknown
+    Clock
+    PAL 
+
+    File Format
+    PSID
+    BASIC
+    false
+    Format Version
+    2
+    PlaySID Specific
+    false
+
+    Free PagesAuto Detected
+    MD5cf17bd1a5a2e84374806cad1b6305264
