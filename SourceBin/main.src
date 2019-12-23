@@ -251,29 +251,29 @@ irq:
 			cmp #$4a
 			bne	!-	
 			
-//			:SetBorderColor(3)
+			:SetBorderColor(3)
 			jsr SpriteSwing1
-//			:SetBorderColor(10)	
+			:SetBorderColor(10)	
 
 !:			lda $d012
 			cmp #$82
 			bne	!-	
 
-//			:SetBorderColor(3)
+			:SetBorderColor(3)
 			jsr SpriteSwing2
-//			:SetBorderColor(10)							
+			:SetBorderColor(10)							
 			
 !:			lda $d012
 			cmp #$ba
 			bne	!-	
 
-//			:SetBorderColor(3)
+			:SetBorderColor(3)
 			jsr SpriteSwing3
-//			:SetBorderColor(10)	
+			:SetBorderColor(10)	
 			
-//			:SetBorderColor(2)
+			:SetBorderColor(2)
 			jsr music.play
-//			:SetBorderColor(10)
+			:SetBorderColor(10)
 						
 
 
@@ -283,21 +283,21 @@ irq:
 			cmp #$fa
 			bne	!-
 		
-//			:SetBorderColor(8)
+			:SetBorderColor(8)
 			ldx #$00
 !:			inx
 			cpx #$10
 			bne !-
 			lda #%00011011
 			sta $d011
-//			:SetBorderColor(10)
+			:SetBorderColor(10)
 
 			
-//			:SetBorderColor(0)
+			:SetBorderColor(0)
 			jsr Plotter
-//			:SetBorderColor(10)
+			:SetBorderColor(10)
 			
-//			:SetBorderColor(13)
+			:SetBorderColor(13)
 			jsr scroller
 			:SetBorderColor(2)
 			
