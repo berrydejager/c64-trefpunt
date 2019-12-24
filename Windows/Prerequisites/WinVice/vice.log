@@ -1,53 +1,78 @@
-*** VICE Version 2.4 ***
-OS compiled for: WIN32
+*** VICE Version 2.3 ***
+OS compiled for: unknown OS
 GUI compiled for: NATIVE
 CPU compiled for: 80386
-Compiler used: GCC-4.6.2
-Current OS: Unknown Windows version (2 6 2 10 1 256)
+Compiler used: GCC-3.4.5
+Current OS: not yet implemented
 Current CPU: Intel Pentium Pro/II/III/Celeron/Core/Core 2/Atom
  
-Welcome to x64, the free portable C64 Emulator.
+Welcome to x64mm, the free portable C64 Emulator.
  
 Current VICE team members:
 D. Lem, A. Matthies, M. Pottendorfer, S. Trikaliotis, M. van den Heuvel,
 C. Vogelgsang, F. Gennari, D. Kahlin, A. Lankila, Groepaz, I. Korb,
-E. Smith, O. Seibert, M. Sutton, U. Schulz, S. Haubenthal, T. Giesel,
-K. Zsolt.
+E. Smith, O. Seibert.
  
 This is free software with ABSOLUTELY NO WARRANTY.
 See the "About VICE" command for more info.
  
-Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\C64\kernal'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVICE\C64\kernal'.
 C64MEM: Kernal rev #3.
-Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\C64\basic'.
-Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\C64\chargen'.
-Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\PRINTER\mps803'.
-Palette: Loading palette `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\PRINTER\mps803.vpl'.
-Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\PRINTER\nl10-cbm'.
-Palette: Loading palette `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\PRINTER\mps803.vpl'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVICE\C64\basic'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVICE\C64\chargen'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVICE\PRINTER\mps803'.
+Palette: Loading palette `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVICE\PRINTER\mps803.vpl'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVICE\PRINTER\nl10-cbm'.
+Palette: Loading palette `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVICE\PRINTER\mps803.vpl'.
 NL10: Printer driver initialized.
-Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\DRIVES\dos1541'.
-Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\DRIVES\d1541II'.
-Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\DRIVES\dos1570'.
-Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\DRIVES\dos1571'.
-Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\DRIVES\dos1581'.
-Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\DRIVES\dos2000'.
-Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\DRIVES\dos4000'.
-Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\DRIVES\dos2031'.
-Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\DRIVES\dos2040'.
-Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\DRIVES\dos3040'.
-Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\DRIVES\dos4040'.
-Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\DRIVES\dos1001'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVICE\DRIVES\dos1541'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVICE\DRIVES\d1541II'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVICE\DRIVES\dos1570'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVICE\DRIVES\dos1571'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVICE\DRIVES\dos1581'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVICE\DRIVES\dos2031'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVICE\DRIVES\dos2040'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVICE\DRIVES\dos3040'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVICE\DRIVES\dos4040'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVICE\DRIVES\dos1001'.
 Drive: Finished loading ROM images.
-video_dx9: Failed to prepare for rendering!
-Sound: Available sound devices: dx wmm dummy fs dump wav voc iff aiff mp3 soundmovie
+Sound: Available sound devices: dx wmm dummy fs dump wav voc iff aiff soundmovie
 TFEARCH: LoadLibrary WPCAP.DLL failed!
-Keyboard: Loading keymap `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\C64\win_pos.vkm'.
+Keyboard: Loading keymap `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVICE\C64\win_pos.vkm'.
+Keyboard: Error - Bad row/column value (-5/0) for keysym `69'.
+Keyboard: Error - Bad row/column value (-5/1) for keysym `71'.
+Keyboard: Error - Bad row/column value (-5/2) for keysym `72'.
+Keyboard: Error - Bad row/column value (-5/3) for keysym `73'.
+Keyboard: Error - Bad row/column value (-5/4) for keysym `103'.
+Keyboard: Error - Bad row/column value (-5/5) for keysym `70'.
+Keyboard: Error - Bad row/column value (-5/6) for keysym `75'.
+Keyboard: Error - Bad row/column value (-5/7) for keysym `76'.
+Keyboard: Error - Bad row/column value (-5/8) for keysym `77'.
+Keyboard: Error - Bad row/column value (-5/9) for keysym `55'.
+Keyboard: Error - Bad row/column value (-5/10) for keysym `84'.
+Keyboard: Error - Bad row/column value (-5/11) for keysym `79'.
+Keyboard: Error - Bad row/column value (-5/12) for keysym `80'.
+Keyboard: Error - Bad row/column value (-5/13) for keysym `81'.
+Keyboard: Error - Bad row/column value (-5/14) for keysym `74'.
+Keyboard: Error - Bad row/column value (-5/15) for keysym `102'.
+Keyboard: Error - Bad row/column value (-5/16) for keysym `82'.
+Keyboard: Error - Bad row/column value (-5/17) for keysym `83'.
+Keyboard: Error - Bad row/column value (-5/18) for keysym `99'.
+Keyboard: Error - Bad row/column value (-5/19) for keysym `78'.
+AUTOSTART: Autodetecting image type of `..\SourceBin\main.prg'.
+Filesystem Image: Unknown disk image `..\SourceBin\main.prg'.
+Tape: Error - Cannot open file `..\SourceBin\main.prg'
+AUTOSTART: Loading PRG file `..\SourceBin\main.prg' with virtual FS on unit #8.
+AUTOSTART: Resetting the machine to autostart 'MAIN.PRG'
+AUTOSTART: Turning Warp mode on
+AUTOSTART: `..\SourceBin\main.prg' recognized as program/p00 file.
 Main CPU: starting at ($FFFC).
 Main CPU: RESET.
 Sound: Opened device `dx', speed 44100Hz, fragment size 23ms, buffer size 116ms
 reSID: MOS6581, filter on, sampling rate 44100Hz - fast
-Drive 8: RESET.
+AUTOSTART: Loading program 'MAIN.PRG'
+AUTOSTART: Starting program.
+AUTOSTART: Turning Warp mode off
 
 Exiting...
 Sound: Closing device `dx'
