@@ -1,0 +1,53 @@
+*** VICE Version 2.4 ***
+OS compiled for: WIN32
+GUI compiled for: NATIVE
+CPU compiled for: 80386
+Compiler used: GCC-4.6.2
+Current OS: Unknown Windows version (2 6 2 10 1 256)
+Current CPU: Intel Pentium Pro/II/III/Celeron/Core/Core 2/Atom
+ 
+Welcome to x64, the free portable C64 Emulator.
+ 
+Current VICE team members:
+D. Lem, A. Matthies, M. Pottendorfer, S. Trikaliotis, M. van den Heuvel,
+C. Vogelgsang, F. Gennari, D. Kahlin, A. Lankila, Groepaz, I. Korb,
+E. Smith, O. Seibert, M. Sutton, U. Schulz, S. Haubenthal, T. Giesel,
+K. Zsolt.
+ 
+This is free software with ABSOLUTELY NO WARRANTY.
+See the "About VICE" command for more info.
+ 
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\C64\kernal'.
+C64MEM: Kernal rev #3.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\C64\basic'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\C64\chargen'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\PRINTER\mps803'.
+Palette: Loading palette `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\PRINTER\mps803.vpl'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\PRINTER\nl10-cbm'.
+Palette: Loading palette `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\PRINTER\mps803.vpl'.
+NL10: Printer driver initialized.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\DRIVES\dos1541'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\DRIVES\d1541II'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\DRIVES\dos1570'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\DRIVES\dos1571'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\DRIVES\dos1581'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\DRIVES\dos2000'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\DRIVES\dos4000'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\DRIVES\dos2031'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\DRIVES\dos2040'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\DRIVES\dos3040'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\DRIVES\dos4040'.
+Loading system file `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\DRIVES\dos1001'.
+Drive: Finished loading ROM images.
+video_dx9: Failed to prepare for rendering!
+Sound: Available sound devices: dx wmm dummy fs dump wav voc iff aiff mp3 soundmovie
+TFEARCH: LoadLibrary WPCAP.DLL failed!
+Keyboard: Loading keymap `C:\Users\BerrydeJager\SynologyDrive\6000.GitHub\c64-trefpunt\Windows\Prerequisites\WinVice\C64\win_pos.vkm'.
+Main CPU: starting at ($FFFC).
+Main CPU: RESET.
+Sound: Opened device `dx', speed 44100Hz, fragment size 23ms, buffer size 116ms
+reSID: MOS6581, filter on, sampling rate 44100Hz - fast
+Drive 8: RESET.
+
+Exiting...
+Sound: Closing device `dx'
