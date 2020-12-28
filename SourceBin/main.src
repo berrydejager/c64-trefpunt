@@ -251,9 +251,9 @@ irq:
 			cmp #$4a
 			bne	!-	
 			
-			:SetBorderColor(3)
+			:SetBorderColor(5)
 			jsr SpriteSwing1
-			:SetBorderColor(10)	
+			:SetBorderColor(6)	
 
 !:			lda $d012
 			cmp #$82
